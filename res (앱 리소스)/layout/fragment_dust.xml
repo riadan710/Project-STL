@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    tools:context=".DustFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="미세먼지 정도"
+        android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gradation_line" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <ImageView
+            android:id="@+id/dust_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/face_yellow" />
+
+        <TextView
+            android:id="@+id/dust_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="보통"
+            android:textColor="@android:color/background_dark"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="미세먼지 농도"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/dust_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="62ug/m3"
+            android:textColor="@android:color/background_dark"
+            android:textSize="35sp" />
+    </LinearLayout>
+</FrameLayout>

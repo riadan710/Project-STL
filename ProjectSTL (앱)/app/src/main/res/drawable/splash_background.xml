@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/splash_background_gradient" />
+
+    <item
+        android:gravity="center">
+
+        <bitmap android:src="@drawable/logo_white_splash"
+            android:gravity="center"
+            />
+    </item>
+
+    <item
+        android:gravity="center"
+        android:bottom="120dp">
+
+        <bitmap android:src="@drawable/splash_trafficlight_transparent"
+            android:gravity="center"
+            />
+    </item>
+
+</layer-list>

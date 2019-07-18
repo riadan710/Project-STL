@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="pattern.css">
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="pattern.js"></script>
+    <div class="nav-bar">
+        <ul>
+            <li class="nav" style="opacity:0; margin-top: 50px;">asdf</li>
+            <li class="nav"><img src="logo.png" alt="" class="nav-logo">
+                <p style="border-bottom: 5px solid gray;" class="nav-text">FURE in dimigo</p>
+            </li>
+            <a href="pattern.html">
+                <li class="this">driving pattern</li>
+            </a>
+            <a href="cctv.html">
+                <li class="nav">Live cctv</li>
+            </a>
+            <a href="dust.html">
+                <li id="liner" class="nav">Live dust detection</li>
+            </a>
+            <a href="emergency.html">
+                <li class="nav">Emergency</li>
+            </a>
+        </ul>
+    </div>
+    <header>
+
+        <a href="index.html">
+            <div class="navigation">project STL</div>
+        </a>
+    </header>
+    <div class="main">
+        <div class="row">
+            <div class="col">
+                <p class="title-text">운전 패턴 분석</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <div class="col">
+                <table>
+                    <tr>
+                        <td class="count">신호위반 횟수</td>
+                        <td class="count traffic_1"> </td>
+                    </tr>
+                    <tr>
+                        <td class="count">신호위반할뻔한 횟수</td>
+                        <td class="count traffic_2"> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="yourdrive">당신의 운전은?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="short-line"></div>
+            </div>
+        </div>
+        <div class="row" style="display: inline-block">
+            <div class="col">
+                <img id="good" style="position:absolute; margin-left: 50px; width: 200px; height: 200%;" src="good.png" alt="">
+                <img id="soso" style="position:absolute; margin-left: 50px; width: 200px; height: 200%;" src="soso.png" alt="">
+                <img id="bad" style="position:absolute; margin-left: 50px; width: 200px; height: 200%;" src="bad.png" alt="">
+            </div>
+        </div>
+        <div class="row" style="margin-left: 100px; display: inline-block">
+            <div class="col">
+                <img src="standard.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div style="margin-top: 50px" class="line"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

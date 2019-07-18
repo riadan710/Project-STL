@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="emergency.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+                $(".first").click(function () {
+                    $(".breath").css("z-index","5");
+                });
+                $(".second").click(function () {
+                    $(".hi").css("z-index", "5");
+                });
+                $(".third").click(function () {
+                    $(".fire").css("z-index", "5");
+                });
+                $(".fourth").click(function () {
+                    $(".blood").css("z-index", "5");
+                });
+                $(".fifth").click(function () {
+                    $(".hot").css("z-index", "5");
+                });
+                $(".sixth").click(function () {
+                    $(".cold").css("z-index", "5");
+                });
+                $(".before").click(function() {
+                    $(".breath").css("z-index","-2");
+                    $(".hi").css("z-index", "-2");
+                    $(".fire").css("z-index", "-2");
+                    $(".blood").css("z-index", "-2");
+                    $(".hot").css("z-index", "-2");
+                    $(".cold").css("z-index", "-2");
+                })
+            });    
+    </script>
+    <div class="nav-bar">
+        <ul>
+            <li class="nav" style="opacity:0; margin-top: 50px;">asdf</li>
+            <li class="nav"><img src="logo.png" alt="" class="nav-logo">
+                <p style="border-bottom: 5px solid gray;" class="nav-text">FURE in dimigo</p>
+            </li>
+            <a href="pattern.html">
+                <li class="nav">driving pattern</li>
+            </a>
+            <a href="cctv.html">
+                <li class="nav">Live cctv</li>
+            </a>
+            <a href="dust.html">
+                <li id="liner" class="nav">Live dust detection</li>
+            </a>
+            <a href="emergency.html">
+                <li class="this">Emergency</li>
+            </a>
+        </ul>
+    </div>
+    <header><a href="index.html">
+        <div class="navigation">project STL</div>
+    </a>
+    </header>
+    <div class="main">
+        <div class="row upper">
+            <div class="col quater">
+                <button class="first">
+                    <p class="quater-text">심폐소생술</p>
+                </button>
+            </div>
+            <div class="col quater">
+                <button class="second">
+                    <p class="quater-text">하인리히법</p>
+                </button>
+            </div>
+            <div class="col quater">
+                <button class="third">
+                    <p class="quater-text">화상</p>
+                </button>
+            </div>
+            <div class="col">
+                <button class="before">
+                    <div class="before-text">다른 대처상황 보기</div>
+                </button>
+            </div>
+        </div>
+        <div class="row under">
+            <div class="col quater">
+                <button class="fourth">
+                    <p class="quater-text">출혈</p>
+                </button>
+            </div>
+            <div class="col quater">
+                <button class="fifth">
+                    <p class="quater-text">열사병</p>
+                </button>
+            </div>
+            <div class="col quater">
+                <button class="sixth">
+                    <p class="quater-text">저체온증</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <img class="image blind" src="blind.png" alt="">
+    <img class="image breath" src="breath.png" alt="">
+    <img class="image hi" src="hi.png" alt="">
+    <img class="image fire" src="fire.png" alt="">
+    <img class="image blood" src="blood.png" alt="">
+    <img class="image hot" src="hot.png" alt="">
+    <img class="image cold" src="cold.png" alt="">
+</body>
+
+</html>

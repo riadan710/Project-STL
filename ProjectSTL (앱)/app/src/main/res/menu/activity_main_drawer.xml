@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menugroup"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="홈" />
+        <item
+            android:id="@+id/nav_livetrafficlight"
+            android:icon="@drawable/ic_traffic_black"
+            android:title="실시간 신호등" />
+        <item
+            android:id="@+id/nav_livecctv"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="실시간 CCTV" />
+        <item
+            android:id="@+id/nav_livedust"
+            android:icon="@drawable/ic_blur_on_black"
+            android:title="미세먼지 상태" />
+        <item
+            android:id="@+id/nav_alert"
+            android:icon="?android:attr/alertDialogIcon"
+            android:title="비상상황" />
+    </group>
+
+    <item android:title="STL Plus">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="공유" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,46 @@
+{
+    "users": {
+        "1": {
+            "name": "Suwon Choi",
+            "email": "SuwonChoi@navertest.com",
+            "age": 30,
+            "city": "Seoul",
+            "age_city": "30_Seoul"
+        },
+        "2": {
+            "name": "Backho Kang",
+            "email": "SuperKang@slamdunk.com",
+            "age": 17,
+            "city": "Incheon",
+            "age_city": "17_Incheon"
+        },
+        "3": {
+            "name": "Taewoong Seo",
+            "email": "seo-tae-woong@slamdunk.com",
+            "age": 17,
+            "city": "Busan",
+            "age_city": "17_Busan"
+        },
+        "4": {
+            "name": "ChiSoo Chae",
+            "email": "gorilazchae@slamdunk.com",
+            "age": 19,
+            "city": "Taegu",
+            "age_city": "19_Taegu"
+        },
+        "5": {
+            "name": "Taeseop Song",
+            "email": "speedsong@slamdunk.com",
+            "age": 18,
+            "city": "Busan",
+            "age_city": "18_Busan"
+        },
+        "6": {
+            "name": "Daeman jung",
+            "email": "firejung@slamdunk.com",
+            "age": 19,
+            "city": "Daejun",
+            "age_city": "19_Daejun"
+        }
+    }
+}

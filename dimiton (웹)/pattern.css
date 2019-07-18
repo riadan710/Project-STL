@@ -1,0 +1,135 @@
+@font-face {
+	font-family: bauer;
+	src: url(bauer.ttf);
+}
+@font-face{
+	font-family: nanum-square;
+	src: url(nanum-square.ttf);
+}
+* {
+	font-family: nanum-square;
+	margin: 0px;
+	padding: 0px;
+}
+p{
+    margin: 0px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+ a:visited {
+     color: black;
+     text-decoration: none;
+    }
+ a:hover {
+     color: black;
+     text-decoration: none;
+    }
+.row:before, .row:after {
+	content: "";
+	display : table;
+}
+.row :after {
+	clear : both;
+}
+.col {
+	margin: 0px;
+	padding : 0px;
+}
+.nav-bar {
+	padding-top: 60px;
+	margin-left: 35px;
+	position: fixed;
+	top: 0px;
+	width: 275px;
+	height: 100%;
+	float: left;
+	z-index: 1;
+	opacity: 0.8;
+	text-align: center;
+}
+#li-top{
+	padding: 5px 0px 5px 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+	z-index: 4;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: linear-gradient(to bottom right,#F3AFAD ,#A3C0FA );	
+}
+.nav{
+	z-index: 3;
+	margin-top:20px;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	color: gray;
+}
+.this{
+    z-index: 3;
+	margin-top:20px;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+    color: rgb(109, 188, 253);
+}
+.navigation{
+	font-family: bauer;
+	position: fixed;
+	z-index: 2;
+	width: 1680px;
+	padding-top: 20px;
+	height: 70px;
+	text-align: center;
+	color: white;
+	background: linear-gradient(to bottom right,#F3AFAD ,#A3C0FA );
+}
+.nav-logo{
+	height: 200px;
+	width: 200px;
+}
+.nav-text{
+	font-family: bauer;
+	margin-top: 30px;
+	text-align: center;
+	animation-name: bbikka;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes bbikka{
+	from{background: white; color: gray;}
+	to{background: #B7B2C9; color: white;}
+}
+.main{
+	float: left;
+    width: 60%;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.title-text{
+    font-size: 40px;
+}
+.line{
+    height: 5px;
+    width: 1100px;
+    background: linear-gradient(to bottom right,#F3AFAD ,#A3C0FA );
+}
+.count{
+    width:550px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+	border: 2px solid black;
+	font-size: 25px;
+}
+.yourdrive{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.short-line{
+    height: 3px;
+    width: 180px;
+    background: linear-gradient(to bottom right,#F3AFAD ,#A3C0FA );
+}
